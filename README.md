@@ -5,7 +5,7 @@
 2. 还原所有`NuGget`包
 3. 编译
 ## 运行
-1. 在`Startup.cs`中更改本地数据库文件的路径
+1. 在`appsettings.json`中更改本地数据库文件的路径
 2. 打开`Package Manager Console`控制台
 3. 执行`Add-Migration Init`创建数据库构造代码
 4. 执行`Update-Database`创建本地数据库文件
