@@ -46,7 +46,7 @@ namespace VisualNovelReaderServer
 
             services.AddDbContext<MainDbContext>(options =>
                     //options.UseSqlServer(Configuration.GetConnectionString("MainDatabase")));
-                    options.UseSqlite("Filename=C:\\Test\\db.sqlite"));
+                    options.UseSqlite(Configuration.GetConnectionString("MainDatabase")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
