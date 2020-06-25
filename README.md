@@ -1,5 +1,6 @@
 # Visual Novel Reader Lite Server
 使用`.NET Core`编写的轻量级`Visual Novel Reader`服务器，可以本地运行。
+**本项目所有代码和成品禁止`默示汉化组`和`心愿屋汉化组`使用！**
 ## 编译
 1. 使用`Visual Studio 2019`打开项目
 2. 还原所有`NuGget`包
