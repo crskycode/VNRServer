@@ -9,7 +9,7 @@
 6. 执行`Add-Migration Init`创建数据库构造代码
 7. 执行`Update-Database`创建本地数据库文件
 ## 客户端配置
-+ 替换`ClientFiles`中的文件即可
++ 使用`ClientFiles`中的文件替换掉VNR中对应的文件即可
 ## 其它备注
 + 已实现基本API
 + 未实现查询缓存
