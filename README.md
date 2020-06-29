@@ -2,7 +2,7 @@
 使用`.NET Core`编写的轻量级`Visual Novel Reader`服务器，可以本地运行。
 ## 编译
 1. 使用`Visual Studio 2019`打开项目
-2. 还原所有`NuGget`包
+2. 还原所有`NuGet`包
 3. 编译
 4. 在`appsettings.json`中更改本地数据库文件的路径
 5. 打开`Package Manager Console`控制台
