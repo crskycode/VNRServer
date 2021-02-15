@@ -159,7 +159,7 @@ namespace VisualNovelReaderServer.Controllers
             if (@params.ContextType != null)
                 term.ContextType = @params.ContextType;
             if (@params.GameId != null)
-                term.GameId = (int)@params.GameId;
+                term.GameId = (int)@params.GameId == 0 ? null : (int)@params.GameId;
             if (@params.IsSpecial != null)
                 term.IsSpecial = (bool)@params.IsSpecial;
             if (@params.IsPrivate != null)
